@@ -4,7 +4,9 @@ Computes _mean_, _median_, and _mode_ of a series of a numbers from a text file 
 
 ![UML Class Diagram of average-test-doubles](average-interface.svg)
 
-# Setup
+This repository is used for exercising the implementation of test doubles. See [instructions](https://m450.frickelbude.ch/uebungen/test-doubles/) in German.
+
+## Setup
 
 Install [Deno](https://deno.com/) and, optionally, the [Deno Extension](https://open-vsx.org/vscode/item?itemName=denoland.vscode-deno) for Visual Studio Code.
 
@@ -12,7 +14,7 @@ Install the dependencies:
 
     deno install
 
-# Execution
+## Execution
 
 Run the tests:
 
