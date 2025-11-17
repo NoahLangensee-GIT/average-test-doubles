@@ -1,4 +1,6 @@
-export class FileAccess {
+import { NumberProvider } from "./NumberProvider";
+
+export class FileAccess implements NumberProvider {
   constructor(private path: string) {}
 
   public async readNumbers() {

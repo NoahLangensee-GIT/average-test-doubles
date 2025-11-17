@@ -1,3 +1,3 @@
 export interface NumberProvider {
-    readNumbers(): Array<number>;
+    readNumbers(): Promise<Array<number>>;
 }
