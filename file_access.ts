@@ -1,4 +1,4 @@
-import { NumberProvider } from "./NumberProvider";
+import { NumberProvider } from "./NumberProvider.ts";
 
 export class FileAccess implements NumberProvider {
   constructor(private path: string) {}
