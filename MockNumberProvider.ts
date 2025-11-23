@@ -14,10 +14,4 @@ export class MockNumberProvider implements NumberProvider {
         this.callCount++; 
         return Promise.resolve(this.numbersToReturn);
     }
-    
-    public verifyCallCount(expected: number): void {
-        if (this.callCount !== expected) {
-            throw new Error(`Erwartete Aufrufe: ${expected}, aber es waren: ${this.callCount}`);
-        }
-    }
 }
